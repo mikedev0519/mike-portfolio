@@ -94,11 +94,11 @@ const skills = {
   data: [
     {
       title: "Front-End Development",
-      fileName: "DataScienceImg",
+      fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Utilizing React.js, Redux, and Next.js to build interactive and dynamic user interfaces, and integrated third-party APIs for real-time data updates",
+        "⚡ Developing mobile applications using Flutter, React Native",
+        "⚡ Defining the architecture of front-end projects, focusing on scalability, modularity, and reusability",
       ],
       softwareSkills: [
         {
@@ -214,11 +214,11 @@ const skills = {
     // },
     {
       title: "Full Stack Development",
-      fileName: "FullStackImg",
+      fileName: "DataScienceImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Participating in Agile development practices, including daily stand-ups, sprint planning, and retrospectives, while contributing to team goals",
+        "⚡ Using Git to manage code changes, implement CI/CD and collaborate with the team",
+        "⚡ Creating application backend in Node, Express & Nest.js and Python, Django & Flask",
       ],
       softwareSkills: [
         {
@@ -651,7 +651,7 @@ const experience = {
       title: "Internships",
       experiences: [
         {
-          title: "Front-End Intern",
+          title: "Front-End Developer Intern",
           company: "IBM Singapore",
           company_url: "https://www.ibm.com/account/sg/en/",
           logo_path: "ibm_logo.png",
@@ -766,27 +766,27 @@ const publicationsHeader = {
 
 const publications = {
   data: [
-    {
-      id: "neuro-symbolic-sudoku-solver",
-      name: "Neuro-Symbolic Sudoku Solver",
-      createdAt: "2023-07-02T00:00:00Z",
-      description: "Paper published in KDD KiML 2023",
-      url: "https://arxiv.org/abs/2307.00653",
-    },
-    {
-      id: "mdp-diffusion",
-      name: "MDP-Diffusion",
-      createdAt: "2023-09-19T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/mdp-diffusion/",
-    },
-    {
-      id: "consistency-models",
-      name: "Consistency Models",
-      createdAt: "2023-10-12T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/consistency-models/",
-    },
+    // {
+    //   id: "neuro-symbolic-sudoku-solver",
+    //   name: "Neuro-Symbolic Sudoku Solver",
+    //   createdAt: "2023-07-02T00:00:00Z",
+    //   description: "Paper published in KDD KiML 2023",
+    //   url: "https://arxiv.org/abs/2307.00653",
+    // },
+    // {
+    //   id: "mdp-diffusion",
+    //   name: "MDP-Diffusion",
+    //   createdAt: "2023-09-19T00:00:00Z",
+    //   description: "Blog published in Paperspace",
+    //   url: "https://blog.paperspace.com/mdp-diffusion/",
+    // },
+    // {
+    //   id: "consistency-models",
+    //   name: "Consistency Models",
+    //   createdAt: "2023-10-12T00:00:00Z",
+    //   description: "Blog published in Paperspace",
+    //   url: "https://blog.paperspace.com/consistency-models/",
+    // },
   ],
 };
 
@@ -796,7 +796,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "michael_long.png",
     description:
-      "You can message me, I will reply within 24 hours. I can help you with Front-End Development, Full-Stack Development, Cloud and Opensource Development.",
+      "Hi there. How can I help you?",
   },
   // blogSection: {
   //   title: "Blogs",
