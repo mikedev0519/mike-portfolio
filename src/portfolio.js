@@ -93,14 +93,116 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Front-End Development",
-      fileName: "FullStackImg",
+      title: "Data Science & AI",
+      fileName: "DataScienceImg",
       skills: [
-        "⚡ Utilizing React.js, Redux, and Next.js to build interactive and dynamic user interfaces, and integrated third-party APIs for real-time data updates",
-        "⚡ Developing mobile applications using Flutter, React Native",
-        "⚡ Defining the architecture of front-end projects, focusing on scalability, modularity, and reusability",
+        "⚡ Hands-on experience with designing and implementing data pipelines, integrating multiple data sources, and optimizing data flows.",
+        "⚡ Creat and maintain data schemas that support business needs and reporting requirements, managing SQL and NoSQL databases,",
+        "⚡ Conduct exploratory data analysis (EDA) using tools like Python (Pandas, NumPy) to understand data distributions, trends, and outliers.",
+        "⚡ Develop dashboards to provide ongoing insights and track key performance indicators (KPIs)."
       ],
       softwareSkills: [
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "ion-logo-python",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Tensorflow",
+          fontAwesomeClassname: "logos-tensorflow",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Keras",
+          fontAwesomeClassname: "simple-icons:keras",
+          style: {
+            backgroundColor: "white",
+            color: "#D00000",
+          },
+        },
+        {
+          skillName: "PyTorch",
+          fontAwesomeClassname: "simple-icons:pytorch",
+          style: {
+            backgroundColor: "transparent",
+            color: "#D00000",
+          },
+        },
+        {
+          skillName: "Oracle",
+          fontAwesomeClassname: "simple-icons:oracle",
+          style: {
+            backgroundColor: "transparent",
+            color: "#D00000",
+          },
+        },
+        {
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "simple-icons:postgresql",
+          style: {
+            color: "#336791",
+          },
+        },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "simple-icons:mongodb",
+          style: {
+            backgroundColor: "transparent",
+            color: 'green'
+          },
+        },
+        {
+          skillName: "Deep Learning",
+          imageSrc: "deeplearning_ai_logo.png",
+        },
+      ],
+    },
+    {
+      title: "Full-Stack Development",
+      fileName: "FullStackImg",
+      skills: [
+        "⚡ Defining the architecture of web applications, focusing on scalability, modularity, and reusability in a test-driven manner",
+        "⚡ Participating in Agile development practices, including daily stand-ups, sprint planning, and retrospectives, while contributing to team goals",
+        "⚡ Utilizing React.js, Redux, and Next.js to build interactive and dynamic user interfaces, and integrated third-party APIs for real-time data updates",
+        "⚡ Developing mobile applications using Flutter, React Native",
+        "⚡ Creating web application backend in Node, Express & Nest.js and Python, Django & Flask",
+        "⚡ Using Git to manage code changes, implement CI/CD and collaborate with the team",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Typescript",
+          fontAwesomeClassname: "simple-icons:typescript",
+          style: {
+            color: "#2C8EBB",
+          },
+        },
+        {
+          skillName: "Golang",
+          fontAwesomeClassname: "simple-icons:go",
+          style: {
+            color: "#02569B",
+          },
+        },
+        {
+          skillName: "NodeJS",
+          fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
+          style: {
+            color: "#339933",
+          },
+        },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "ion-logo-python",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
         {
           skillName: "ReactJS & React Native",
           fontAwesomeClassname: "simple-icons:react",
@@ -116,46 +218,10 @@ const skills = {
           },
         },
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
           skillName: "Sass",
           fontAwesomeClassname: "simple-icons:sass",
           style: {
             color: "#CC6699",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "Typescript",
-          fontAwesomeClassname: "simple-icons:typescript",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
-          style: {
-            color: "#339933",
           },
         },
         {
@@ -167,125 +233,11 @@ const skills = {
         },
       ],
     },
-    // {
-    //   title: "Data Science & AI",
-    //   fileName: "DataScienceImg",
-    //   skills: [
-    //     "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-    //     "⚡ Experience of working with Computer Vision and NLP projects",
-    //     "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
-    //   ],
-    //   softwareSkills: [
-    //     {
-    //       skillName: "Tensorflow",
-    //       fontAwesomeClassname: "logos-tensorflow",
-    //       style: {
-    //         backgroundColor: "transparent",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Keras",
-    //       fontAwesomeClassname: "simple-icons:keras",
-    //       style: {
-    //         backgroundColor: "white",
-    //         color: "#D00000",
-    //       },
-    //     },
-    //     {
-    //       skillName: "PyTorch",
-    //       fontAwesomeClassname: "logos-pytorch",
-    //       style: {
-    //         backgroundColor: "transparent",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Python",
-    //       fontAwesomeClassname: "ion-logo-python",
-    //       style: {
-    //         backgroundColor: "transparent",
-    //         color: "#3776AB",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Deeplearning",
-    //       imageSrc: "deeplearning_ai_logo.png",
-    //     },
-    //   ],
-    // },
-    {
-      title: "Full Stack Development",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Participating in Agile development practices, including daily stand-ups, sprint planning, and retrospectives, while contributing to team goals",
-        "⚡ Using Git to manage code changes, implement CI/CD and collaborate with the team",
-        "⚡ Creating application backend in Node, Express & Nest.js and Python, Django & Flask",
-      ],
-      softwareSkills: [
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "Typescript",
-          fontAwesomeClassname: "simple-icons:typescript",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "Golang",
-          fontAwesomeClassname: "simple-icons:go",
-          style: {
-            color: "#02569B",
-          },
-        },
-      ],
-    },
     {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
+        "⚡ Experience working on multiple cloud platforms, GCP, AWS and Azure",
         "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
         "⚡ Deploying deep learning models on cloud to use on mobile devices",
         "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
