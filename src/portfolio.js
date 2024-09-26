@@ -404,7 +404,7 @@ const degrees = {
       subtitle: "Bachelor of Computing in Computer Science",
       logo_path: "nus_logo.png",
       alt_name: "NUS",
-      duration: "2009 - 2012",
+      duration: "2010 - 2013",
       descriptions: [
         "⚡ I have studied basic software engineering subjects like Data Structure, Algorithms, DBMS, Web3, OS, Cloud Computing, ML, AI etc.",
         "⚡ Apart from this, I have done courses on Full Stack Development, Data Science and Deep Learning.",
@@ -546,7 +546,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "As a Front-End Engineer, I perfected my skills in Web Development by designing and implementing web-based solutions that meet the needs of various clients. From creating visually appealing websites with efficient navigation to developing rich user interfaces, my work as a Front-End Engineer has sharpened my eye for detail and made me proficient in using technologies such as HTML, CSS, JavaScript, and React.js.",
+    "As a Data Engineer with Full-Stack Web Development expertise, I perfected my skills in Web Development and Data Engineering by designing and implementing data pipelines and web-based solutions that meet the needs of various clients. From creating data-driven dashboards and visually appealing websites with efficient navigation to developing rich user interfaces, my work has sharpened my eye for detail and made me proficient in using technologies such as Python, Typescript, SQL, Node.js and React.js.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -554,25 +554,25 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Front-End Consultant",
+          title: "Data Engineer, Full-Stack",
           company: "Highcode Tech Ltd",
           company_url: "https://www.highcode.tech",
           logo_path: "highcode_logo.jfif",
           duration: "December 2018 - Present",
           location: "Columbus, OH, US",
           description:
-            "Ensured that projects follow front-end best practices, such as clean code, maintainability, performance optimization, and responsive design. Provided solutions for complex front-end challenges such as state management, data flow, component architecture, or cross-browser compatibility.",
+            "Developed a private healthcare system for a start-up utilizing React, React Native, Redux, GraphQL, Tailwind CSS, Python, Generative AI and integrated third-party APIs for real-time data updates",
           color: "#000000",
         },
         {
-          title: "Front-End Engineer",
+          title: "Full-Stack Engineer",
           company: "IBM Singapore",
           company_url: "https://www.ibm.com/account/sg/en/",
           logo_path: "ibm_logo.png",
-          duration: "Decemter 2012 - December 2018",
+          duration: "Decemter 2013 - December 2018",
           location: "Singapore",
           description:
-            "Collaborated with back-end developers, designers, and product managers to ensure that the front-end integrates seamlessly with other systems and follows the overall product vision. Contributed ideas and solutions to technical problems, improving user experience and overall application performance.",
+            "Collaborated with developers, designers, and product managers to ensure that the web-based solution integrates seamlessly with other systems and follows the overall product vision. Contributed ideas and solutions to technical problems, improving user experience and overall application performance.",
           color: "#0879bf",
         },
         // {
@@ -607,7 +607,7 @@ const experience = {
           company: "IBM Singapore",
           company_url: "https://www.ibm.com/account/sg/en/",
           logo_path: "ibm_logo.png",
-          duration: "December 2012 - Aug 2013",
+          duration: "December 2013 - Aug 2014",
           location: "Singapore",
           description:
             "Building new features on the frontend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
